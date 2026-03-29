@@ -1,0 +1,9 @@
+# Large dataset files / 大数据文件
+datasets/*.pt
+datasets/*.h5
+
+# Model weights / 模型权重
+best_models/*.pt
+
+# Backup directory / 备份目录
+test_add_打包/
