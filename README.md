@@ -1,3 +1,28 @@
+# NeuralCAE Experiments
+
+Physical AI exploration by a CAE engineer: MeshGraphNet, FNO, PyG experiments, and NPM (Neural Percolation Model) validation.
+
+---
+
+## NPM Framework Study Series
+
+| # | Title | Status | Link |
+|---|-------|--------|------|
+| #1 | Predicting Emergence Order | Published | [Zenodo (DOI: 10.5281/zenodo.19440042)](https://doi.org/10.5281/zenodo.19440042) |
+| #2 | Physical Interpretation of Critical Exponent | Planned | — |
+| #3 | Emergence Curve Across Critical Threshold | Planned | — |
+| #4 | Operationalizing Data Quality Parameter | Planned | — |
+
+**NPM main framework:** [Zenodo (DOI: 10.5281/zenodo.19209722)](https://doi.org/10.5281/zenodo.19209722)
+
+### Validation Data & Code (`validation/`)
+
+- `scripts/` — NPM fitting, Brier Score computation
+- `results/` — MMLU evaluation results for 9 models (Pythia 70M–12B + Phi-2)
+- `figures/` — Accuracy vs Brier Score scatter plots (CN/EN)
+
+---
+
 # MeshGraphNets Experiments with PhysicsNeMo
 
 MeshGraphNets 模型在 NVIDIA PhysicsNeMo 框架下的 API 验证、训练流程复现与文档问题记录。
