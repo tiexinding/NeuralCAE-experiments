@@ -7,3 +7,15 @@ best_models/*.pt
 
 # Backup directory / 备份目录
 test_add_打包/
+
+# Virtual environments
+.venv/
+__pycache__/
+
+# Temporary logs
+validation/results/tf-logs/
+validation/results/mmlu_log.txt
+validation/results/pythia_log.txt
+
+# Screenshots
+validation/github.png
